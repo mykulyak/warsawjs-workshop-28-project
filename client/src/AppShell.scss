@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import '~material-design-lite/src/material-design-lite';
+
+@media (min-width: $layout-screen-size-threshold) {
+  .mdl-layout__drawer {
+    .mdl-layout-title {
+      visibility: hidden;
+    }
+  }
+}
