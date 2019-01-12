@@ -1,4 +1,16 @@
-.self {
-  flex-grow: 1;
-  outline: 1px solid forestgreen;
+@import '~dialog-polyfill/dialog-polyfill.css';
+
+.home {
+  position: relative;
+
+  .add-project {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    z-index: 1;
+  }
+
+  .full-width {
+    width: 100%;
+  }
 }

@@ -2,7 +2,7 @@ import AppShell from './AppShell';
 
 if ('serviceWorker' in navigator) {
   global.addEventListener('load', () => {
-    navigator.serviceWorker.register('/assets/sw.js');
+    navigator.serviceWorker.register('/sw.js');
   });
 }
 

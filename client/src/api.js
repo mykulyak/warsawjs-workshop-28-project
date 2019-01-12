@@ -1,4 +1,4 @@
-const API_ROOT = 'http://localhost:3000';
+const API_ROOT = 'https://localhost:3000';
 
 export function login(credentials) {
   return global.fetch(`${API_ROOT}/auth`, {
